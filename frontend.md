@@ -29,6 +29,11 @@ GET http://spotippos.vivareal.com/properties/1
 GET http://spotippos.vivareal.com/properties?ax=1&ay=1&bx=20&by=20
 ```
 
+####Listar todos os imóveis:
+```
+GET http://spotippos.vivareal.com/properties?ax=1&ay=1&bx=1400&by=1000
+```
+
 ## Desafio
 
 Sua missão é criar uma página de resultados como todos os anúncios de imóveis de Spotippos. Vamos lá, a sua página não pode ser apenas estática, ela precisa de alguma inteligência para que todos os imóveis sejam exibidos dinamicamente. Ela ficará ainda mais legal, se os filtros funcionarem, pois eles ajudarão as pessoas a encontrarem o imóvel dos seus sonhos em Spotippos.
